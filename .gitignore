@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+myenv/
+#*.db                    # SQLite database (if you don't want to track it)
+*.sqlite3
+
+# Streamlit
+.streamlit/secrets.toml  # if you have secrets
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

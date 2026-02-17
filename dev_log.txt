@@ -1,0 +1,16 @@
+python -m streamlit run app.py
+
+menu text:#5d5d5d
+menu back: #f7945b
+
+pip install passlib
+
+
+db scouter add admins
+sqlite3 workout_tracker.db
+UPDATE users SET is_admin = 1 WHERE username = 'mbt';
+.exit
+
+If I am doing bodyweight excercices I want to be able to add a set without adding weight. I want the user to be able to add their data (age, weight, height, gender) in a profile panel. There will be a some exercices that will be performed with bodywheight (like pullups) but will be able to add extra weights (like 10, 15kg). The app will calculate the weight for this excersise by adding any weight the user might add to their bodyweight.
+
+Before you start producing code, lets discuss how you might implement such a change.
